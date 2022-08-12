@@ -30,3 +30,9 @@ To train the model, open a terminal and go to the folder in which you have the p
 ```
 python train.py
 ```
+
+The training will start and the checkpoints throughout the training will be saved in the folder specified by the ``--log_dir`` parameter. To test the model, set the ``--log_dir`` parameter to the same name as in the training file, and also set the ``--checkpoint`` parameter to the checkpoint with which you want to make predictions. The run
+```
+python test.py
+```
+
