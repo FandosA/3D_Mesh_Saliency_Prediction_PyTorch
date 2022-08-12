@@ -23,3 +23,10 @@ The next step was to modify the [PointNet++](https://dl.acm.org/doi/10.5555/3295
 ![imagen](https://user-images.githubusercontent.com/71872419/184414146-58a6a84a-3570-4e88-83f5-6d2b75f7b8e2.png)
 ![imagen](https://user-images.githubusercontent.com/71872419/184414213-6e7efdcf-83f1-4dec-970d-dbee2fe01c63.png)
 
+
+## Run the implementation
+
+To train the model, open a terminal and go to the folder in which you have the project. You can change the default parameters by modifying the ``train.py`` file and then running it, or setting them in the terminal when running it. I recommend the first option, modify the file and then run in the terminal
+```
+python train.py
+```
