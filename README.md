@@ -16,6 +16,6 @@ The experiment was carried out in virtual reality. This decision was made becaus
 
 When all of this was implemented and everything was working properly, people were called in to carry out the experiment. The gaze data was collected and processed to prepare the dataset. The dataset can be found in the folders ``dataset_train/``, ``dataset_val/`` and ``dataset_test/``. It consist of text files that contain the coordinates of the vertices of the meshes, their normals, the time that each vertex was fixated in the experiment, and the digit 1 or 0 that represents that vertex as interesting or not interesting (in case the problem was binarized). Then the text files, corresponding to each mesh, have the following form: (X, Y, Z, NormX, NormY, NormZ, time, binTerm). The image below shows the fixation maps of three participants and the aggregated fixation map from all the participants.
 
-<img src="https://user-images.githubusercontent.com/71872419/184412340-42042cbb-049c-4052-97ae-5bc6472d5629.png"  width="400" height="200">
+<img src="https://user-images.githubusercontent.com/71872419/184412340-42042cbb-049c-4052-97ae-5bc6472d5629.png"  width="400" height="550">
 
 The next step was to modify the [PointNet++](https://dl.acm.org/doi/10.5555/3295222.3295263) network to adapt it to this problem. For that
