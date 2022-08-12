@@ -10,4 +10,6 @@ they were taken from different public databases. As the meshes have been made by
 
 <img src="https://user-images.githubusercontent.com/71872419/184395473-d7eda8a2-f0e5-425f-8c17-2e7e5f111814.png" width="600" height="500">
 
-The experiment was carried out in virtual reality. This decision was made because of three main reasons: (1) it offers more control over the viewing conditions, (2) it provides stereo viewing and (3) it avoids possible distractions from the real world. The equipment used to perform the experiment consists of the HTC Vive Pro virtual reality headset and the [Pupil Labs](https://pupil-labs.com/) eye tracker. To create the virtual environment in which the experiment was carried out, the Unity game engine was used.
+The experiment was carried out in virtual reality. This decision was made because of three main reasons: (1) it offers more control over the viewing conditions, (2) it provides stereo viewing and (3) it avoids possible distractions from the real world. The equipment used to perform the experiment consists of the HTC Vive Pro virtual reality headset and the [Pupil Labs](https://pupil-labs.com/) eye tracker. To create the virtual environment in which the experiment was carried out, the Unity game engine was used. The scene is shown below
+
+<img src="https://user-images.githubusercontent.com/71872419/184403632-1689dcb4-6c46-44a0-a242-35319f33d83a.PNG" width="600" height="500">
