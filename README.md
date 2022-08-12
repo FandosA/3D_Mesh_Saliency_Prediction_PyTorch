@@ -18,9 +18,7 @@ When all of this was implemented and everything was working properly, people wer
 
 <img src="https://user-images.githubusercontent.com/71872419/184412340-42042cbb-049c-4052-97ae-5bc6472d5629.png"  width="400" height="540">
 
-The next step was to modify the [PointNet++](https://dl.acm.org/doi/10.5555/3295222.3295263) network to adapt it to this problem. For that, the size of the output layer was set to 1 (since each vertex has only one value assigned, its fixation map), the activation of the output layer was changed to ReLU (since only values that are 0 or larger than 0 are desired) and the loss function was changed to the Mean Squared Error (since this is a regression problem with continuous values as labels).
-
-Once all of this was ready, the network was trained running the ``train.py`` file, and tested running the ``test.py`` file. The results obtained for the 4 meshes is shown below
+The next step was to modify the [PointNet++](https://dl.acm.org/doi/10.5555/3295222.3295263) network to adapt it to this problem. For that, the size of the output layer was set to 1 (since each vertex has only one value assigned, its fixation map), the activation of the output layer was changed to ReLU (since only values that are 0 or larger than 0 are desired) and the loss function was changed to the Mean Squared Error (since this is a regression problem with continuous values as labels). Once all of this was ready, the network was trained tested. The results obtained for the 4 test meshes is shown below.
 
 ![imagen](https://user-images.githubusercontent.com/71872419/184414146-58a6a84a-3570-4e88-83f5-6d2b75f7b8e2.png)
 ![imagen](https://user-images.githubusercontent.com/71872419/184414213-6e7efdcf-83f1-4dec-970d-dbee2fe01c63.png)
