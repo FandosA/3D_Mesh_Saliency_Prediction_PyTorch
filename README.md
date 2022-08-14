@@ -42,7 +42,7 @@ python visualize_predictions.py
 ## Citation
 If you find this work useful in your research, please cite:
 ```
-@MastersThesis{masterthesis,
+@MastersThesis{ANDRESmasterthesis,
     author = {Fandos, Andrés},
     title = {Deep learning models for 3D mesh saliency prediction},
     school = {University of Zaragoza},
