@@ -39,7 +39,7 @@ The files with the predictions will be saved in the folder ``predicions/`` insid
 python visualize_predictions.py
 ```
 
-## Citation
+# Citation
 If you find this work useful in your research, please cite:
 ```
 @MastersThesis{AndresFandos2022,
