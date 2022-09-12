@@ -34,7 +34,7 @@ The training will start and the checkpoints throughout the training will be save
 ```
 python test.py
 ```
-The files with the predictions will be saved in the folder ``predicions/`` inside the ``--log_dir`` folder. To visualize them, simply set the ``--log_dir`` parameter in the ``visualize_predictions.py`` file to the same name as in the training and test files and run
+The files with the predictions will be saved in the folder ``predictions/`` inside the ``--log_dir`` folder. To visualize them, simply set the ``--log_dir`` parameter in the ``visualize_predictions.py`` file to the same name as in the training and test files and run
 ```
 python visualize_predictions.py
 ```
